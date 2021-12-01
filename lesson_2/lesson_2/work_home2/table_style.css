@@ -1,0 +1,29 @@
+table
+{
+
+    border:  100px solid grey;
+    border-style: solid;
+    border-color: blanchedalmond;
+    border-collapse: collapse;
+    width: 400px;
+}
+th{ 
+    border-width: 1px;
+    border-style: solid;
+    border-color: blanchedalmond;
+}
+td{ border-width:  1px;
+    border-style: solid;
+    border-color: blanchedalmond;
+    }
+    th{
+        background-color:burlywood ;
+    }
+    th{
+background: maroon;
+    }
+    
+
+tr{
+height: 200px;
+}

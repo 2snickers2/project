@@ -1,0 +1,29 @@
+.blue_color{
+    color: blue;
+}
+.red_color{
+    color: red;
+}
+table{
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 800px;
+}
+tr{
+    height: 100px; 
+}
+td{
+    border: 1px solid black;
+}
+.sec_diag{
+    background-color: brown;
+}
+.main_diag{
+    background-color: burlywood;
+}
+#unique_sell{
+    background-color: cyan;
+}
+#unique_sell:hover{
+   color: brown;
+}

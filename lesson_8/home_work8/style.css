@@ -1,0 +1,68 @@
+body{
+    background-color: rgb(175, 179, 179);
+}
+.transition_example{
+    background-color:  rgb(97, 4, 4);
+    height: 150px;
+    width: 500px;
+    margin: 30px 50px;
+    transition: 0.7s;
+    border-radius: 20px;
+}
+.transition_example:hover{
+    width: 1200px;
+    transition: 0.7s;
+}
+.fa_ul{
+    list-style-type: none;
+    margin-left: 2.5em;
+   padding: 0px;
+}
+li{
+    padding: 15px;
+    color: white;
+}
+
+.transform_example{
+    background-color: rgb(78, 10, 10);
+    width: 1200px;
+    height: 150px;
+    margin: 30px 50px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+
+}
+.block_2{
+    width: 100%;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.mini_block{
+    width: 100px;
+    height: 100px;
+    background-color: rgba(255, 255, 255, 0.603);
+  
+}
+.mini_block:hover{
+    transform: skewX(20deg);
+
+}
+.img{
+    width: 90%;
+    height: 300px;
+    margin: 0 auto;
+    background: url(snickers.jpg) transparent no-repeat center center / cover;
+}
+.picture{
+    width: 100%;
+    text-align: center;
+}
+.picture img{
+    max-width: 100%;
+}
